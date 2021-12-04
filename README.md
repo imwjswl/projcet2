@@ -29,4 +29,26 @@ GWi"<End>"<Esc>ZZ
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/94671864/144715383-ed9e6106-cf30-4119-a3bb-a77dd7747412.gif)
 
+*********
+
+문제 2. simple replacement
+
+![제목 없음2](https://user-images.githubusercontent.com/94671864/144716178-a0389623-743b-48ce-a458-4c4f231c5891.png)
+
+* 나의 풀이
+
+```
+:%s/sublime\|emacs/vim/g<CR>ZZ
+```
+`:%s/str/replace/g` : str을 replacse로 치환한다.
+
+`\|` 을 이용해 치환 문을 두번 사용하지 않게 하였다. sublime과 emacs는 둘 다 vim으로 치환할 것이기 때문에 하나의 명령으로 치환시켰다.
+
+`<CR>` : <Enter>키
+
+`ZZ` : 저장 후 종료
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/94671864/144716298-af72556e-c0ef-4d57-8db8-fcf5405f14cc.gif)
+
+
 
