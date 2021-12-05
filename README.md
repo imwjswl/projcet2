@@ -1,12 +1,13 @@
 # VimGolf 문제 풀기
 
-**문제 1. Add quotes to ansible playbook**
+
+**문제 1. Add quotes to ansible playbook  (my score : 9 | highest score : 8)**
 
 ![제목 없음1](https://user-images.githubusercontent.com/94671864/144715277-10d1cfc2-8c2c-4c89-81a8-2d7ce3def53a.png)
 
 *******
 
-* 나의 풀이 (score : 9 | highest score : 8)
+* 나의 풀이
 
 ```
 GWi"<End>"<Esc>ZZ
@@ -33,7 +34,7 @@ GWi"<End>"<Esc>ZZ
 
 *********
 
-**문제 2. simple replacement (score : 27 | highest score : 19)**
+**문제 2. simple replacement (my score : 27 | highest score : 19)**
 
 ![제목 없음2](https://user-images.githubusercontent.com/94671864/144716178-a0389623-743b-48ce-a458-4c4f231c5891.png)
 
@@ -56,7 +57,7 @@ GWi"<End>"<Esc>ZZ
 
 *********
 
-**문제 3. Satisfy the go linter (score : 33 | highest score : 20)**
+**문제 3. Satisfy the go linter (my score : 33 | highest score : 20)**
 
 ![제목 없음3](https://user-images.githubusercontent.com/94671864/144717515-eccbfb7f-f249-42c0-925a-85e61432ffbe.png)
 
@@ -96,7 +97,7 @@ GWi"<End>"<Esc>ZZ
 
 *********
 
-**문제 4. Plotting some variables in python (score : 59| highest score : 34)**
+**문제 4. Plotting some variables in python (my score : 59| highest score : 34)**
 
 ![제목 없음1](https://user-images.githubusercontent.com/94671864/144740050-96ac4133-f084-4f9b-9b67-723adc532f29.png)
 
@@ -129,7 +130,7 @@ GWi"<End>"<Esc>ZZ
 
 *********
 
-**문제 5. Python dataclasses (score : 32| highest score : 19)**
+**문제 5. Python dataclasses (my score : 32| highest score : 19)**
 
 ![제목 없음2](https://user-images.githubusercontent.com/94671864/144746235-dd6a53ac-b5a8-419d-9ded-28900291a4b5.png)
 
