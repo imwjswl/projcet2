@@ -45,7 +45,7 @@ GWi"<End>"<Esc>ZZ
 ```
 :%s/sublime\|emacs/vim/g<CR>ZZ
 ```
-`:%s/str/replace/g` : str을 replacse로 치환한다.
+`:%s/sublime/|emacs/vim/g` : sublime, emacs을 vim로 치환한다.
 
 `\|` 을 이용해 치환 문을 두번 사용하지 않게 하였다. sublime과 emacs는 둘 다 vim으로 치환할 것이기 때문에 하나의 명령으로 치환시켰다.
 
