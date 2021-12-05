@@ -96,42 +96,37 @@ GWi"<End>"<Esc>ZZ
 
 *********
 
-**문제 3. Satisfy the go linter (score : 33 | highest score : 20)**
+**문제 4. Plotting some variables in python (score : 34| highest score : 59)**
 
-![제목 없음3](https://user-images.githubusercontent.com/94671864/144717515-eccbfb7f-f249-42c0-925a-85e61432ffbe.png)
+![제목 없음1](https://user-images.githubusercontent.com/94671864/144740050-96ac4133-f084-4f9b-9b67-723adc532f29.png)
+
 
 ******
 
 * 나의 풀이
 
 ```
-4GO// Version TODO<Esc>Y<CR>pwcwDebug<Esc>ZZ
+:%s/y1/abs(y1)/g<CR>:s/1/4/g<CR>:4s/1/3/g<CR>:3s/1/2/g<CR>fksb<Down><BS>r<Down><BS>g<Esc>ZZ
 ```
-`4G` : 4번째 줄로 이동한다.
+`:%s/y1/abs(y1)/g` : y1을 모두 abs(y1)으로 치환
 
-`O` : 현재 라인을 다음 줄로 밀고 입력한다.
+`:s/1/4/g` : 현재 라인에 있는 1을 모두 4로 치환
 
-`// Version TODO` : 추가할 문장 입력
+`:4s/1/3/g` : 4 라인에 있는 1을 모두 3으로 치환
 
-`<Esc>` : 입력 종료
+`:3s/1/2/g` : 3 라인에 있는 1을 모두 2으로 치환
 
-`Y` : 현재 라인 전체 복사
+`fk` : 커서를 k앞으로 이동
 
-`<CR>` : 엔터키를 통해 아래 줄로 이동
+`s` : 커서 뒤 단어 삭제
 
-`p` : 현재 줄을 다음 줄로 밀고 복사한 내용 붙여넣기
-
-`w` : 단어 시작 위치로 이동
-
-`cw` : 단어 삭제 후 삽입
-
-`Debug` : 삽입 내용 입력
+이후 `b`로 변경, 커서를 아래로 내리면서 r, g로 바꿈
 
 `<Esc>` : 입력 종료
 
 `ZZ` : 저장 후 종료
 
-![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/94671864/144717740-0b92565b-3453-4a98-926c-8f32a25482df.gif)
+![kDfm0QgKjI](https://user-images.githubusercontent.com/94671864/144740002-15007df2-57bc-4f54-ad42-d40f46da2526.gif)
 
 
 
