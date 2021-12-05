@@ -96,10 +96,9 @@ GWi"<End>"<Esc>ZZ
 
 *********
 
-**문제 4. Plotting some variables in python (score : 34| highest score : 59)**
+**문제 4. Plotting some variables in python (score : 59| highest score : 34)**
 
 ![제목 없음1](https://user-images.githubusercontent.com/94671864/144740050-96ac4133-f084-4f9b-9b67-723adc532f29.png)
-
 
 ******
 
@@ -127,6 +126,32 @@ GWi"<End>"<Esc>ZZ
 `ZZ` : 저장 후 종료
 
 ![kDfm0QgKjI](https://user-images.githubusercontent.com/94671864/144740002-15007df2-57bc-4f54-ad42-d40f46da2526.gif)
+
+*********
+
+**문제 5. Python dataclasses (score : 32| highest score : 19)**
+
+![제목 없음2](https://user-images.githubusercontent.com/94671864/144746235-dd6a53ac-b5a8-419d-9ded-28900291a4b5.png)
+
+******
+
+* 나의 풀이
+
+```
+/"<CR>astudent_id,name,age,score<Esc>ZZ
+```
+`/"` : **"** 찾기
+
+`a` : 현재 커서 뒤에서 부터 삽입
+
+`student_id,name,age,score` : 삽입 내용
+
+`<Esc>` : 입력 종료
+
+`ZZ` : 저장 후 종료
+
+![hzTrF9HSE7](https://user-images.githubusercontent.com/94671864/144746287-802d772e-9524-45d7-aaaf-7a5e07dec2d8.gif)
+
 
 
 
