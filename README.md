@@ -91,6 +91,46 @@ GWi"<End>"<Esc>ZZ
 
 `ZZ` : 저장 후 종료
 
+![6KvKomiJ0T](https://user-images.githubusercontent.com/94671864/144739819-34123495-d2e8-4dd4-923f-1c7a4d8c8a77.gif)
+
+
+*********
+
+**문제 3. Satisfy the go linter (score : 33 | highest score : 20)**
+
+![제목 없음3](https://user-images.githubusercontent.com/94671864/144717515-eccbfb7f-f249-42c0-925a-85e61432ffbe.png)
+
+******
+
+* 나의 풀이
+
+```
+4GO// Version TODO<Esc>Y<CR>pwcwDebug<Esc>ZZ
+```
+`4G` : 4번째 줄로 이동한다.
+
+`O` : 현재 라인을 다음 줄로 밀고 입력한다.
+
+`// Version TODO` : 추가할 문장 입력
+
+`<Esc>` : 입력 종료
+
+`Y` : 현재 라인 전체 복사
+
+`<CR>` : 엔터키를 통해 아래 줄로 이동
+
+`p` : 현재 줄을 다음 줄로 밀고 복사한 내용 붙여넣기
+
+`w` : 단어 시작 위치로 이동
+
+`cw` : 단어 삭제 후 삽입
+
+`Debug` : 삽입 내용 입력
+
+`<Esc>` : 입력 종료
+
+`ZZ` : 저장 후 종료
+
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/94671864/144717740-0b92565b-3453-4a98-926c-8f32a25482df.gif)
 
 
